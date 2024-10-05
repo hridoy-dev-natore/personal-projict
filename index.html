@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-10">
+    <header>
+
+    </header>
+    <main>
+        <div class="flex">
+            <!-- main conten -->
+             <div class="flex-1">
+                <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img
+                        src="img/images/rectangle.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class=" text-center">Rectangle</h2>
+                      <p class="text-center">Area (A) = w x I</p>
+                      <!-- input stard -->
+                  <div class="text-center">
+                    <input id="rectangle-langth"
+                    type="text"
+                    placeholder="W"
+                    class="input  input-primary   w-14 h-8" /> <span>cm</span>
+                    <!-- input2 -->
+                    <input id="rectangle-hrigth"
+                    type="text"
+                    placeholder="I"
+                    class="input input-primary   w-14 h-8" /> <span>cm</span>
+                  </div>
+                      <!-- input endd -->
+                      <div class="card-actions justify-end">
+                        <button onclick="rectanglecelculite()" id="clickme" class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                 
+                    
+             <!-- calculate -->
+              <div class="w-96 border-2 border-gray-700 md">
+                <h3 id="rectangle-area" class="text-3*1 text-center p-4">Area calculate</h3>
+              </div>
+        </div>
+    </main>
+    <script src="rectangle.js"></script>
+</body>
+</html>
